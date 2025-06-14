@@ -85,6 +85,7 @@ export function PayloadAuthAdapter(): Adapter {
         collection: 'users',
         id: Number(id),
         data: {
+          email: data.email,
           name: data.name,
           emailVerified: data.emailVerified ? data.emailVerified.toISOString() : null,
           image: data.image,
