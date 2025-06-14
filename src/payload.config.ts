@@ -28,7 +28,7 @@ export default buildConfig({
         },
       },
     },
-    theme: 'dark',
+    theme: 'light',
   },
   collections: [Users, Media, Accounts],
   editor: lexicalEditor(),
